@@ -15,3 +15,7 @@ function greeter(person : Person) {
 }
 
 let user = new Student("Jane", "M.", "User");
+
+export const sum
+    = (...a: number[]) =>
+    a.reduce((acc, val) => acc + val, 0);
