@@ -23,9 +23,11 @@
   "homepage": "https://github.com/yildizozan/simple-s3-adapter#readme",
   "dependencies": {},
   "devDependencies": {
+    "@types/jest": "^23.3.13",
     "gulp": "^4.0.0",
     "gulp-typescript": "^5.0.0",
-    "jest": "^24.0.0",
+    "jest": "^23.6.0",
+    "ts-jest": "^23.10.5",
     "typescript": "^3.2.4"
   }
 }
