@@ -3,8 +3,8 @@ node_js:
   - 10
 
 before_script:
-  - npm install -g typescript
-  - npm install -g gulp-cli
   - npm install
+  - ./node_modules/jest/bin/jest.js
+  - ./node_modules/gulp/bin/gulp.js build
 
 script: gulp build
