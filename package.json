@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "AWS S3 Adaptor",
   "main": "dist/index.js",
+  "types": "dist/index.d.js",
   "scripts": {
     "test": "jest"
   },
@@ -20,12 +21,11 @@
     "url": "https://github.com/yildizozan/simple-s3-adapter/issues"
   },
   "homepage": "https://github.com/yildizozan/simple-s3-adapter#readme",
-  "dependencies": {
-    "jest": "^24.0.0"
-  },
+  "dependencies": {},
   "devDependencies": {
     "gulp": "^4.0.0",
     "gulp-typescript": "^5.0.0",
+    "jest": "^24.0.0",
     "typescript": "^3.2.4"
   }
 }
