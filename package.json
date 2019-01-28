@@ -1,0 +1,31 @@
+{
+  "name": "simple-s3-adapter",
+  "version": "1.0.0",
+  "description": "AWS S3 Adaptor",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yildizozan/simple-s3-adapter.git"
+  },
+  "keywords": [
+    "s3",
+    "adaptor"
+  ],
+  "author": "Ozan Yıldız <developer@yildizozan.com>",
+  "license": "GPL",
+  "bugs": {
+    "url": "https://github.com/yildizozan/simple-s3-adapter/issues"
+  },
+  "homepage": "https://github.com/yildizozan/simple-s3-adapter#readme",
+  "dependencies": {
+    "jest": "^24.0.0"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.0",
+    "gulp-typescript": "^5.0.0",
+    "typescript": "^3.2.4"
+  }
+}
